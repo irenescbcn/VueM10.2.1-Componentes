@@ -1,0 +1,1 @@
+import Padre from "./componentes/Padre";
