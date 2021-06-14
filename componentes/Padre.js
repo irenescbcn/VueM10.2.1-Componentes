@@ -1,11 +1,16 @@
 Vue.component("Padre", {
-    template: "<h2>{{message}}</h2>",
-    data(){
-        return {
-            message="Soc el Pare"
+    template: `
+    <div>
+        <h2>{{messagePadre}}</h2>
+        <Hijo></Hijo>
+    </div>`,
+    
+    data() {
+        return{ 
+            messagePadre:"Soc el Pare"
         }
+        
     }
-})
+});
 
 
-import Hijo from "Hijo"

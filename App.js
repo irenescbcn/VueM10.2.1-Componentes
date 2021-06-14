@@ -1,1 +1,3 @@
-import Padre from "./componentes/Padre";
+new Vue ({
+    el: "#app"
+});
